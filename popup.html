@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="popup.css">
+    <script type="text/javascript" src="data.json"></script>
+	<script type="text/javascript" src="popup.js"></script>
+</head>
+<body>
+<div id="wait">
+    Please wait...
+</div>
+<div id="notfound" class="invisible">
+    Sorry, the page did not correspond to a valid question github repository
+</div>
+<div id="found" class="invisible">
+    <b>QID: </b> <span id="qid"></span>
+    <b>Name: </b> <span id="name"></span>
+    <button type="button" id="link">Question Link</button>
+    <button type="button" id="syncps">Sync Problem Statement</button>
+    <button type="button" id="syncin">Sync Internal Notes</button>
+    <div id="log"></div>
+</div>
+</body>
+</html>
