@@ -56,7 +56,7 @@ function syncIN() {
     if(internalNotes != null){
         var theUrl = API_URL + questionInfo.id;
         var body = {
-            "internal_notes": problemStatement
+            "internal_notes": internalNotes
         };
         var xmlHttp = new XMLHttpRequest();
         xmlHttp.open("PUT", theUrl, false);
